@@ -282,7 +282,7 @@
   height: 877px;
   background-image: url(../images/kaufman-triangle.svg);
   z-index: 1;
-  object-fit: cover;
+  background-size: cover;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -295,6 +295,7 @@
 
 .section-title_theme_dark {
   color: white;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
