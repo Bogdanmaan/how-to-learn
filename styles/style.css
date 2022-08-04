@@ -37,7 +37,7 @@
   display: flex;
   align-self: center;
   max-width: 730px;
-  margin-left: 64px;
+  padding-left: 64px;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
@@ -73,7 +73,6 @@
   z-index: 1;
   right: 0;
   bottom: 0;
-  
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
