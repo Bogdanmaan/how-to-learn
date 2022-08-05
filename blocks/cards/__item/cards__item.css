@@ -1,8 +1,22 @@
 .cards__item {
+    width: 240px;
     display: flex;
     flex-direction: column;
-    width: 240px;
-    padding-top: 60px;
-    padding-bottom: 43px;
-    box-sizing: border-box;
+    padding: 60px 100px 43px;
+}
+
+.cards__item:first-of-type {
+    padding: 60px 0 43px;
+}
+
+.cards__item:nth-of-type(3n) {
+    padding: 60px 0 43px;
+}
+
+.cards__item:nth-of-type(4n) {
+    padding-left: 0;
+}
+
+.cards__item:last-of-type {
+    padding: 60px 0 43px;
 }
